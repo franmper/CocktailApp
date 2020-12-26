@@ -1,8 +1,7 @@
 import React from "react";
-import { View, Text, StyleSheet, Pressable } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { colors, spacing } from "../utils/theme";
 import { Ionicons } from "@expo/vector-icons";
-import { NavigationProp } from "@react-navigation/native";
 
 interface TitleProps {
   text: string;
@@ -25,6 +24,7 @@ const styles = StyleSheet.create({
     padding: spacing,
     borderBottomWidth: 2,
     borderBottomColor: colors.ligthBlue,
+    backgroundColor: colors.black
   },
   title: {
     color: colors.ligthBlue,
